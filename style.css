@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+    color:#797d85;
+    font-size: 16px;
+    letter-spacing: 0.075rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container{
+    min-width:90% !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    min-height: 70px;
+}
+
+.nav-link.active{
+    color:#0978f5 !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight:500;
+    color:#797d85!important;
+}
+
+.nav-link:hover{
+    color: #0978f5 !important;
+}
+
+header{
+    padding: 230px 0px;
+}
+
+h1{
+    color: #111724;
+    font-size:48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.header-text{
+    width:100%;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#services{
+    background-color: #FAFBFC;
+    padding-top:80px;
+}
+
+.service{
+    padding:50px 15px 50px 15px;
+}
+
+.service-icon{
+    color:#0978f5;
+    width:100px;
+    height:100px;
+    border: 2px solid #0978f5;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.75rem;
+    font-weight: 900;
+    margin:0 auto;
+    margin-bottom:20px;
+    
+}
+
+.service-title{
+    color: #111724;
+    margin-bottom:15px;
+    font-weight:700;
+    font-size:24px;
+
+}
+
+@media (min-width:992px) {
+    .header-text{
+        max-width:55%;
+    }
+}
+
+
